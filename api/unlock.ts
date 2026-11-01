@@ -1,4 +1,4 @@
-import { codeMatches, isAuthorised, lockCookie, unlockCookie } from '../server/auth'
+import { codeMatches, isAuthorised, lockCookie, unlockCookie } from '../server/auth.js'
 
 /** GET → is this browser unlocked? (The cookie is HttpOnly, so the page can't check it itself.) */
 export async function GET(request: Request) {

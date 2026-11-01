@@ -1,5 +1,5 @@
 import { next } from '@vercel/functions'
-import { isAuthorised } from './server/auth'
+import { isAuthorised } from './server/auth.js'
 
 /**
  * Vercel runs this before serving any of the scrapbook's private files:

@@ -1,5 +1,5 @@
-import { isAuthorised } from '../server/auth'
-import { blobStore, handleToys } from '../server/toys'
+import { isAuthorised } from '../server/auth.js'
+import { blobStore, handleToys } from '../server/toys.js'
 
 /** The soft-toy catalogue (list, add, edit, remove). Only for unlocked visitors. */
 async function guarded(request: Request) {
