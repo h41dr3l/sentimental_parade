@@ -3,7 +3,7 @@ import path from 'node:path'
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import type { Plugin } from 'vite'
 import { codeMatches, isAuthorised, lockCookie, unlockCookie } from '../server/auth'
-import { blobStore, handleToys } from '../server/toys'
+import { blobStore, blobToken, handleToys } from '../server/toys'
 import { fileStore, localPhotoPath } from './localToys'
 
 /** Locally the lock behaves like on Vercel (same code, same cookie), just with a throwaway secret. */
@@ -103,7 +103,7 @@ export function scrapbookEditor(): Plugin {
             for (const [k, v] of Object.entries(req.headers)) if (typeof v === 'string') headers.set(k, v)
             const hasBody = req.method === 'POST' || req.method === 'PUT'
             const request = new Request(`http://localhost${req.url}`, { method: req.method, headers, body: hasBody ? new Uint8Array(await readBody(req)) : undefined })
-            const response = await handleToys(request, process.env.BLOB_READ_WRITE_TOKEN ? blobStore() : fileStore(toysRoot))
+            const response = await handleToys(request, blobToken() ? blobStore() : fileStore(toysRoot))
             res.statusCode = response.status
             response.headers.forEach((v, k) => res.setHeader(k, v))
             res.end(Buffer.from(await response.arrayBuffer()))
