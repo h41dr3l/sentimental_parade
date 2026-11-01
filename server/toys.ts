@@ -31,7 +31,7 @@ export interface ToyStore {
 
 const FIELDS = ['name', 'birthday', 'origin', 'personality', 'gender', 'memory'] as const
 /** The homes and how many floors each has (keep in step with src/toys/houses.ts). */
-export const HOUSES: Record<string, number> = { treehouse: 3, penthouse: 3 }
+export const HOUSES: Record<string, number> = { treehouse: 3, penthouse: 3, castle: 3, bathhouse: 3 }
 const DEFAULT_HOUSE = 'treehouse'
 /** Toys added before there was more than one house live in the treehouse. */
 const withHouse = (t: Toy): Toy => (HOUSES[t.house] ? t : { ...t, house: DEFAULT_HOUSE })

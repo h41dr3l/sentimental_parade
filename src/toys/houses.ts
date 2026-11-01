@@ -55,6 +55,39 @@ export const HOUSES: House[] = [
     ],
     backdrop: 'linear-gradient(180deg, #e4dcef 0%, #f4e7e8 55%, #ead8d6 100%)',
   },
+  {
+    id: 'castle',
+    name: 'The Underwater Castle',
+    art: '/moments/toyhouse/castle.webp',
+    alt: 'A castle on the sea floor with a clam-shell bedroom, a coral sitting room and a sea-glass kitchen',
+    floors: [
+      { name: 'the shell bedroom', y: 43.8, x0: 41, x1: 70 },
+      { name: 'the coral sitting room', y: 64.6, x0: 35, x1: 68 },
+      { name: 'the sea-glass kitchen', y: 85.8, x0: 35, x1: 72 },
+    ],
+    climbs: [
+      { from: 0, to: 1, x: 31 },
+      { from: 1, to: 2, x: 29 },
+      { from: 0, to: 1, x: 71 },
+    ],
+    backdrop: 'linear-gradient(180deg, #bcdde6 0%, #d6ecee 55%, #e4e2cf 100%)',
+  },
+  {
+    id: 'bathhouse',
+    name: 'The Lantern Bathhouse',
+    art: '/moments/toyhouse/bathhouse.webp',
+    alt: 'A Japanese wooden bathhouse with a tatami loft, a tea room and a steaming cedar bath',
+    floors: [
+      { name: 'the tatami loft', y: 41.3, x0: 36, x1: 76 },
+      { name: 'the tea room', y: 65, x0: 27, x1: 68 },
+      { name: 'the cedar bath', y: 88, x0: 26, x1: 74 },
+    ],
+    climbs: [
+      { from: 0, to: 1, x: 30 },
+      { from: 1, to: 2, x: 70 },
+    ],
+    backdrop: 'linear-gradient(180deg, #c9cde6 0%, #e6e0ea 55%, #d9d3c4 100%)',
+  },
 ]
 
 export const houseById = (id?: string) => HOUSES.find((h) => h.id === id) ?? HOUSES[0]
