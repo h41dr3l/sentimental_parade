@@ -47,6 +47,14 @@ export function blobToken(): string | undefined {
   return key ? process.env[key] : undefined
 }
 
+/**
+ * Newer Blob stores sign in with Vercel's built-in identity (OIDC) instead of a token:
+ * the project then only has BLOB_STORE_ID, and the Blob library handles the rest.
+ */
+export function blobConfigured() {
+  return !!blobToken() || !!process.env.BLOB_STORE_ID
+}
+
 /** Vercel Blob. Random suffixes keep the photo and record addresses unguessable. */
 export function blobStore(token = blobToken()): ToyStore {
   const dataUrl = new Map<string, string>()
