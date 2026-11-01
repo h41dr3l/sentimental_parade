@@ -1,0 +1,749 @@
+{
+  "title": "Disney Adventure",
+  "prologue": {
+    "place": "Singapore",
+    "date": "14 May 2026",
+    "line": "Five days, four nights, and nowhere to be but the sea."
+  },
+  "days": [
+    {
+      "id": "day1",
+      "label": "Day 1",
+      "date": "14 May",
+      "title": "Setting sail",
+      "moments": [
+        {
+          "id": "d1-1",
+          "time": "morning",
+          "text": "All aboard! We toured around the ship and played ping pong while we waited for our room to be ready.",
+          "photos": [],
+          "stickers": [
+            "pingpong"
+          ]
+        },
+        {
+          "id": "d1-2",
+          "time": "afternoon",
+          "place": "pixar",
+          "text": "Lunch at Pixar Market. Then we ran into Mickey Mouse and had to queue for a photo.",
+          "photos": [],
+          "stickers": [
+            "ears"
+          ]
+        },
+        {
+          "id": "d1-room",
+          "time": "afternoon",
+          "place": "stateroom",
+          "text": "Our room was finally ready: stateroom 15311, our little home for five days, with the castle right outside the balcony.",
+          "photos": [
+            {
+              "id": "p-room",
+              "src": "/moments/disney-adventure/stateroom.webp",
+              "caption": "our little home for five days",
+              "ratio": 1.339
+            }
+          ],
+          "stickers": [
+            "castle"
+          ]
+        },
+        {
+          "id": "d1-3",
+          "time": "afternoon",
+          "place": "sanfransokyo",
+          "text": "Walked around some more, soaking in the vibe and exploring different corners, like San Fransokyo.",
+          "photos": [
+            {
+              "id": "p1",
+              "src": "/moments/disney-adventure/san-fransokyo.webp",
+              "caption": "San Fransokyo Street",
+              "ratio": 0.753,
+              "rot": -4
+            }
+          ]
+        },
+        {
+          "id": "d1-4",
+          "time": "afternoon",
+          "place": "topdeck",
+          "text": "Made it for Let's Set Sail, where we heard the iconic sound for the first time.",
+          "photos": [],
+          "stickers": [
+            "horn",
+            "ship"
+          ],
+          "effect": "horn"
+        },
+        {
+          "id": "d1-5",
+          "time": "evening",
+          "place": "stateroom",
+          "text": "Decorated our door with Rapunzel flags. Room 15311 was officially ours.",
+          "photos": [
+            {
+              "id": "p2",
+              "src": "/moments/disney-adventure/door.webp",
+              "caption": "our Rapunzel door",
+              "ratio": 1.329
+            }
+          ],
+          "stickers": [
+            "sun",
+            "lantern"
+          ]
+        },
+        {
+          "id": "d1-6",
+          "time": "evening",
+          "place": "theatre",
+          "text": "Our first show: Disney Seas the Adventure, starring Goofy as the captain.",
+          "photos": [],
+          "stickers": [
+            "stage",
+            "wheel"
+          ]
+        },
+        {
+          "id": "d1-7",
+          "time": "evening",
+          "place": "animators",
+          "text": "Dinner at Animator's Table. We drew our own characters and watched them come alive on screen! Dinner was fantastic too: scallops and steak, and of course, the Mickey bar.",
+          "photos": [
+            {
+              "id": "p3",
+              "src": "/moments/disney-adventure/nicole-drawing.webp",
+              "caption": "Nicole, mid-masterpiece",
+              "ratio": 1.329
+            },
+            {
+              "id": "p4",
+              "src": "/moments/disney-adventure/elroy-drawing.webp",
+              "caption": "Elroy's character, about to come alive",
+              "ratio": 1.329,
+              "fx": "alive"
+            },
+            {
+              "id": "p5",
+              "src": "/moments/disney-adventure/mickey-bar.webp",
+              "caption": "the Mickey bar",
+              "ratio": 1.329
+            }
+          ],
+          "stickers": [
+            "scallops",
+            "steak",
+            "icecream"
+          ]
+        },
+        {
+          "id": "d1-8",
+          "time": "night",
+          "text": "Got our beer token and mug for the rest of the cruise.",
+          "photos": [],
+          "stickers": [
+            "beer"
+          ]
+        },
+        {
+          "id": "d1-9",
+          "time": "night",
+          "text": "And ended the night at the silent disco.",
+          "photos": [],
+          "stickers": [
+            "headphones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "label": "Day 2",
+      "date": "15 May",
+      "title": "Friendship day at sea",
+      "moments": [
+        {
+          "id": "d2-1",
+          "time": "morning",
+          "place": "theatre",
+          "text": "Woke up super early for the Duffy and Friends friendship show, and brought our Olu Mel plush along.",
+          "photos": [
+            {
+              "id": "p6",
+              "src": "/moments/disney-adventure/olu-mel-theatre.webp",
+              "caption": "Olu Mel, front row",
+              "ratio": 1.329,
+              "fx": "bob"
+            },
+            {
+              "id": "p7",
+              "src": "/moments/disney-adventure/duffy-show.webp",
+              "caption": "laugh, dream, smile",
+              "ratio": 0.753
+            }
+          ]
+        },
+        {
+          "id": "d2-2",
+          "time": "morning",
+          "place": "ohana",
+          "text": "Breakfast at Ohana Grill. Lilo and Stitch themed, and our favourite spot on the ship.",
+          "photos": [],
+          "stickers": [
+            "hibiscus"
+          ]
+        },
+        {
+          "id": "d2-3",
+          "time": "morning",
+          "place": "dlounge",
+          "text": "Suncatcher colouring at D Lounge.",
+          "photos": [
+            {
+              "id": "p8",
+              "src": "/moments/disney-adventure/suncatchers.webp",
+              "caption": "our suncatchers",
+              "ratio": 1.329,
+              "fx": "shimmer"
+            }
+          ]
+        },
+        {
+          "id": "d2-4",
+          "time": "afternoon",
+          "text": "3 steaks for lunch!!!",
+          "photos": [],
+          "stickers": [
+            "steak"
+          ]
+        },
+        {
+          "id": "d2-5",
+          "time": "afternoon",
+          "text": "A mixology class, where we learnt to make four different cocktails.",
+          "photos": [],
+          "stickers": [
+            "cocktails",
+            "martinis"
+          ]
+        },
+        {
+          "id": "d2-6",
+          "time": "afternoon",
+          "place": "sanfransokyo",
+          "text": "Watched Hoppers in the Baymax cinema.",
+          "photos": [
+            {
+              "id": "p9",
+              "src": "/moments/disney-adventure/baymax-cinema.png",
+              "caption": "cinema 2",
+              "ratio": 1.329,
+              "fx": "glow"
+            }
+          ],
+          "stickers": [
+            "popcorn",
+            "ticket"
+          ]
+        },
+        {
+          "id": "d2-7",
+          "time": "evening",
+          "place": "stateroom",
+          "text": "Got a towel folding when we went back to our room.",
+          "photos": [
+            {
+              "id": "p10",
+              "src": "/moments/disney-adventure/towel-folding.webp",
+              "caption": "a towel friend",
+              "ratio": 1.329
+            }
+          ]
+        },
+        {
+          "id": "d2-8",
+          "time": "night",
+          "place": "topdeck",
+          "text": "Secured good spots for the fireworks.",
+          "photos": [
+            {
+              "id": "p11",
+              "src": "/moments/disney-adventure/fireworks.webp",
+              "caption": "fireworks at sea",
+              "ratio": 0.753
+            }
+          ],
+          "stickers": [
+            "fireworks"
+          ],
+          "effect": "fireworks"
+        },
+        {
+          "id": "d2-9",
+          "time": "night",
+          "place": "grandmatala",
+          "text": "Supper at Grandma Tala's. Very happy with the fried chicken.",
+          "photos": [],
+          "stickers": [
+            "chicken"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "label": "Day 3",
+      "date": "16 May",
+      "title": "Characters & karaoke",
+      "moments": [
+        {
+          "id": "d3-1",
+          "time": "morning",
+          "place": "stateroom",
+          "text": "Room service breakfast.",
+          "photos": [
+            {
+              "id": "p12",
+              "src": "/moments/disney-adventure/room-service.webp",
+              "caption": "breakfast in our room",
+              "ratio": 1.329
+            }
+          ],
+          "stickers": [
+            "tray"
+          ]
+        },
+        {
+          "id": "d3-2",
+          "time": "morning",
+          "place": "sanfransokyo",
+          "text": "Meet and greet with Baymax, and we did the falalala fist bump! Then we played the mini games at Hiro's training ground. It was a projector on the floor, kind of like floor is lava, but not really.",
+          "photos": [],
+          "stickers": [
+            "fistbump"
+          ]
+        },
+        {
+          "id": "d3-3",
+          "time": "afternoon",
+          "text": "The Colour Dance show, where Elroy fell in love with Daisy Duck.",
+          "photos": [],
+          "stickers": [
+            "ears"
+          ]
+        },
+        {
+          "id": "d3-4",
+          "time": "afternoon",
+          "text": "Selfie time with Mickey and friends, with pixie dusting in between.",
+          "photos": [],
+          "stickers": [
+            "camera"
+          ]
+        },
+        {
+          "id": "d3-5",
+          "time": "afternoon",
+          "place": "kidsclub",
+          "text": "Visited the kids club and played a memory game together. Surprisingly, I won!",
+          "photos": [
+            {
+              "id": "p13",
+              "src": "/moments/disney-adventure/captains-deck.webp",
+              "caption": "Mickey & Minnie Captain's Deck",
+              "ratio": 1.329
+            }
+          ],
+          "stickers": [
+            "trophy"
+          ]
+        },
+        {
+          "id": "d3-6",
+          "time": "afternoon",
+          "text": "Meet and greet with ShellieMay, and we brought Olu Mel along! She was so lovely.",
+          "photos": []
+        },
+        {
+          "id": "d3-7",
+          "time": "afternoon",
+          "text": "Disney tunes trivia. We absolutely failed. It was so hard!",
+          "photos": [
+            {
+              "id": "p14",
+              "src": "/moments/disney-adventure/trivia.webp",
+              "caption": "KnowsMore trivia",
+              "ratio": 0.753
+            }
+          ]
+        },
+        {
+          "id": "d3-8",
+          "time": "evening",
+          "text": "Sang karaoke together in public before dinner. We sang Let It Go.",
+          "photos": [],
+          "stickers": [
+            "mic"
+          ]
+        },
+        {
+          "id": "d3-9",
+          "time": "evening",
+          "place": "spotlight",
+          "text": "Dinner at Hollywood Spotlight Club. Mickey and friends performed, and they even came to each table individually to give high fives.",
+          "photos": [
+            {
+              "id": "p15",
+              "src": "/moments/disney-adventure/spotlight-medallion.webp",
+              "caption": "standing on the gold Mickey",
+              "ratio": 0.753,
+              "fx": "gold"
+            }
+          ]
+        },
+        {
+          "id": "d3-10",
+          "time": "night",
+          "place": "topdeck",
+          "text": "Watched a bit of Age of Ultron at the pool deck.",
+          "photos": [
+            {
+              "id": "p16",
+              "src": "/moments/disney-adventure/age-of-ultron.webp",
+              "caption": "movie under the stars",
+              "ratio": 1.329
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day4",
+      "label": "Day 4",
+      "date": "17 May",
+      "title": "Full speed ahead",
+      "moments": [
+        {
+          "id": "d4-1",
+          "time": "morning",
+          "place": "gym",
+          "text": "Gym in the morning, with a view of the seas!! So pretty.",
+          "photos": [
+            {
+              "id": "p17",
+              "src": "/moments/disney-adventure/gym.webp",
+              "caption": "treadmills with a sea view",
+              "ratio": 0.753
+            }
+          ],
+          "stickers": [
+            "dumbbell"
+          ]
+        },
+        {
+          "id": "d4-2",
+          "time": "morning",
+          "place": "topdeck",
+          "text": "Went on both of Woody's water slides, which were so fun, and played around in the water areas.",
+          "photos": [],
+          "stickers": [
+            "slide"
+          ]
+        },
+        {
+          "id": "d4-3",
+          "time": "afternoon",
+          "text": "Caught Olu Mel on stage during his selfie session. Elroy ran to get our soft toy but couldn't make it, so we waited for him to come out again. His head bobs are so cute.",
+          "photos": [
+            {
+              "id": "p18",
+              "src": "/moments/disney-adventure/olu-mel-stage.webp",
+              "caption": "Olu Mel meets Olu Mel",
+              "ratio": 1.329,
+              "fx": "bob"
+            }
+          ]
+        },
+        {
+          "id": "d4-4",
+          "time": "afternoon",
+          "text": "Bingo with our headbands on. We got a device for the bingo cards, and beer! Unfortunately we didn't win but someone at our table did!",
+          "photos": [
+            {
+              "id": "p19",
+              "src": "/moments/disney-adventure/bingo.webp",
+              "caption": "bingo night",
+              "ratio": 1.329
+            }
+          ],
+          "stickers": [
+            "bingo",
+            "beer"
+          ]
+        },
+        {
+          "id": "d4-5",
+          "time": "afternoon",
+          "place": "marvel",
+          "text": "Made it for Ironcycle. We'd booked it for yesterday but it rained, so we got to skip the queue. Sat in front and was in charge of the throttle, and we went FULL SPEED. At some point I thought we were going to fly into the sea. Then we took the Guardians of the Galaxy Groot music spinner.",
+          "photos": [],
+          "stickers": [
+            "motorbike",
+            "sprout"
+          ]
+        },
+        {
+          "id": "d4-6",
+          "time": "evening",
+          "place": "garden",
+          "text": "Avengers Assemble. Very cool, with so many effects and heroes.",
+          "photos": [
+            {
+              "id": "p20",
+              "src": "/moments/disney-adventure/avengers.webp",
+              "caption": "Stark Expo",
+              "ratio": 0.753,
+              "fx": "energy"
+            }
+          ]
+        },
+        {
+          "id": "d4-7",
+          "time": "evening",
+          "text": "Speed-ran dinner so we could make it for the Royal Gathering. The food was really good though.",
+          "photos": []
+        },
+        {
+          "id": "d4-8",
+          "time": "evening",
+          "text": "At the Royal Gathering we met Ariel, Rapunzel and Snow White. We even had an autograph book, and asked them silly questions about their characters.",
+          "photos": [],
+          "stickers": [
+            "crown",
+            "autograph"
+          ],
+          "autographs": [
+            {
+              "name": "Ariel",
+              "note": "what do you miss about the sea"
+            },
+            {
+              "name": "Rapunzel",
+              "note": "how do you wash your hair"
+            },
+            {
+              "name": "Snow White",
+              "note": "do you still eat apples"
+            }
+          ]
+        },
+        {
+          "id": "d4-9",
+          "time": "night",
+          "place": "pizza",
+          "text": "Pizza Planet for supper.",
+          "photos": [
+            {
+              "id": "p21",
+              "src": "/moments/disney-adventure/pizza-planet.webp",
+              "caption": "Pizza Planet",
+              "ratio": 1.329
+            }
+          ],
+          "stickers": [
+            "pizza"
+          ]
+        },
+        {
+          "id": "d4-10",
+          "time": "night",
+          "place": "stateroom",
+          "text": "Greeted by a WALL-E towel folding when we got back. Then we soaked in our final night.",
+          "photos": [
+            {
+              "id": "p22",
+              "src": "/moments/disney-adventure/walle-towel.webp",
+              "caption": "WALL-E and Olu Mel",
+              "ratio": 0.753
+            }
+          ],
+          "effect": "lanterns"
+        }
+      ]
+    },
+    {
+      "id": "day5",
+      "label": "Day 5",
+      "date": "18 May",
+      "title": "Farewell, Adventure",
+      "moments": [
+        {
+          "id": "d5-1",
+          "time": "morning",
+          "text": "We just walked around, soaking up our moments on the ship before disembarking.",
+          "photos": [
+            {
+              "id": "p23",
+              "src": "/moments/disney-adventure/top-deck.webp",
+              "caption": "the top deck, one last time",
+              "ratio": 0.753
+            },
+            {
+              "id": "p24",
+              "src": "/moments/disney-adventure/funnels-pool.webp",
+              "caption": "pool deck",
+              "ratio": 0.753
+            }
+          ]
+        },
+        {
+          "id": "d5-2",
+          "time": "morning",
+          "place": "garden",
+          "text": "The garden was so pretty.",
+          "photos": [
+            {
+              "id": "p25",
+              "src": "/moments/disney-adventure/garden-arch.webp",
+              "caption": "peeking into the garden",
+              "ratio": 1.329
+            },
+            {
+              "id": "p26",
+              "src": "/moments/disney-adventure/sorcerer-topiary.webp",
+              "caption": "Sorcerer Mickey",
+              "ratio": 1.329
+            }
+          ],
+          "stickers": [
+            "castle"
+          ]
+        },
+        {
+          "id": "d5-3",
+          "time": "night",
+          "place": "garden",
+          "text": "And how it looked at night, from the evenings before.",
+          "photos": [
+            {
+              "id": "p27",
+              "src": "/moments/disney-adventure/garden-night.webp",
+              "caption": "the garden stage",
+              "ratio": 0.753
+            },
+            {
+              "id": "p28",
+              "src": "/moments/disney-adventure/garden-above.webp",
+              "caption": "lanterns from above",
+              "ratio": 1.329
+            },
+            {
+              "id": "p29",
+              "src": "/moments/disney-adventure/funnel-night.webp",
+              "caption": "goodnight, funnel",
+              "ratio": 0.753
+            }
+          ],
+          "effect": "lanterns"
+        }
+      ]
+    }
+  ],
+  "epilogue": {
+    "date": "18 May · Singapore",
+    "title": "Home again",
+    "line": "Until the next voyage."
+  },
+  "places": [
+    {
+      "id": "marvel",
+      "name": "Marvel Landing",
+      "x": 21,
+      "y": 14
+    },
+    {
+      "id": "topdeck",
+      "name": "Top deck & pools",
+      "x": 57,
+      "y": 21
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza Planet",
+      "x": 33,
+      "y": 24
+    },
+    {
+      "id": "garden",
+      "name": "Disney Imagination Garden",
+      "x": 50,
+      "y": 44
+    },
+    {
+      "id": "ohana",
+      "name": "Ohana Grill",
+      "x": 75,
+      "y": 23
+    },
+    {
+      "id": "gym",
+      "name": "Gym",
+      "x": 52,
+      "y": 79
+    },
+    {
+      "id": "stateroom",
+      "name": "Stateroom 15311",
+      "x": 70,
+      "y": 40
+    },
+    {
+      "id": "kidsclub",
+      "name": "Kids club",
+      "x": 67,
+      "y": 62
+    },
+    {
+      "id": "pixar",
+      "name": "Pixar Market",
+      "x": 37,
+      "y": 79
+    },
+    {
+      "id": "sanfransokyo",
+      "name": "San Fransokyo Street",
+      "x": 39,
+      "y": 63
+    },
+    {
+      "id": "dlounge",
+      "name": "D Lounge",
+      "x": 9,
+      "y": 70
+    },
+    {
+      "id": "grandmatala",
+      "name": "Grandma Tala's",
+      "x": 64,
+      "y": 79
+    },
+    {
+      "id": "animators",
+      "name": "Animator's Table",
+      "x": 52,
+      "y": 62
+    },
+    {
+      "id": "spotlight",
+      "name": "Hollywood Spotlight Club",
+      "x": 85,
+      "y": 64
+    },
+    {
+      "id": "theatre",
+      "name": "The theatre",
+      "x": 22,
+      "y": 68
+    }
+  ]
+}
